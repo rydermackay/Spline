@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D41FBBA1741474C001DFB53 /* RGMCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D41FBB91741474C001DFB53 /* RGMCollectionViewCell.m */; };
+		0D41FBF717429D31001DFB53 /* RGMGLPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D41FBF617429D2F001DFB53 /* RGMGLPlayerViewController.m */; };
+		0D41FBF917429D3F001DFB53 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D41FBF817429D3F001DFB53 /* GLKit.framework */; };
+		0D41FBFB17429D44001DFB53 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D41FBFA17429D44001DFB53 /* OpenGLES.framework */; };
+		0D41FBFD17429D4C001DFB53 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D41FBFC17429D4C001DFB53 /* CoreImage.framework */; };
+		0D86FFA51740959A005CD94C /* RGMScrubberControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D86FFA41740959A005CD94C /* RGMScrubberControl.m */; };
 		0DA94AB8173F2BD6001651DA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DA94AB7173F2BD6001651DA /* UIKit.framework */; };
 		0DA94ABA173F2BD6001651DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DA94AB9173F2BD6001651DA /* Foundation.framework */; };
 		0DA94ABC173F2BD6001651DA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DA94ABB173F2BD6001651DA /* CoreGraphics.framework */; };
@@ -16,9 +22,29 @@
 		0DA94ACA173F2BD6001651DA /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DA94AC9173F2BD6001651DA /* Default.png */; };
 		0DA94ACC173F2BD6001651DA /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DA94ACB173F2BD6001651DA /* Default@2x.png */; };
 		0DA94ACE173F2BD6001651DA /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DA94ACD173F2BD6001651DA /* Default-568h@2x.png */; };
+		0DA94AD5173F2BE3001651DA /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DA94AD4173F2BE3001651DA /* AVFoundation.framework */; };
+		0DA94ADA173F2C28001651DA /* RGMRecordingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DA94AD9173F2C28001651DA /* RGMRecordingViewController.m */; };
+		0DA94ADC173F2C51001651DA /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DA94ADB173F2C51001651DA /* CoreMedia.framework */; };
+		0DA94ADF173F3013001651DA /* RGMSampleWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DA94ADE173F3013001651DA /* RGMSampleWriter.m */; };
+		0DA94AE1173F33B4001651DA /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DA94AE0173F33B4001651DA /* QuartzCore.framework */; };
+		0DA94AE4173F36D5001651DA /* RGMTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DA94AE3173F36D5001651DA /* RGMTableViewController.m */; };
+		0DA94AE6173F3761001651DA /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DA94AE5173F3761001651DA /* MediaPlayer.framework */; };
+		0DA94AE8173F3F5A001651DA /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DA94AE7173F3F5A001651DA /* CoreVideo.framework */; };
+		0DA94AED173F5D5A001651DA /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DA94AEC173F5D5A001651DA /* CoreAudio.framework */; };
+		0DA94AF017403B49001651DA /* RGMPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DA94AEF17403B49001651DA /* RGMPlayerViewController.m */; };
+		0DAE68D71745BA5A00127F5D /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DAE68D61745BA5A00127F5D /* MainStoryboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0D41FBB81741474C001DFB53 /* RGMCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RGMCollectionViewCell.h; sourceTree = "<group>"; };
+		0D41FBB91741474C001DFB53 /* RGMCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RGMCollectionViewCell.m; sourceTree = "<group>"; };
+		0D41FBF517429D2F001DFB53 /* RGMGLPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RGMGLPlayerViewController.h; sourceTree = "<group>"; };
+		0D41FBF617429D2F001DFB53 /* RGMGLPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RGMGLPlayerViewController.m; sourceTree = "<group>"; };
+		0D41FBF817429D3F001DFB53 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		0D41FBFA17429D44001DFB53 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		0D41FBFC17429D4C001DFB53 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		0D86FFA31740959A005CD94C /* RGMScrubberControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RGMScrubberControl.h; sourceTree = "<group>"; };
+		0D86FFA41740959A005CD94C /* RGMScrubberControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RGMScrubberControl.m; sourceTree = "<group>"; };
 		0DA94AB4173F2BD6001651DA /* Spline.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Spline.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DA94AB7173F2BD6001651DA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		0DA94AB9173F2BD6001651DA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -32,6 +58,21 @@
 		0DA94AC9173F2BD6001651DA /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		0DA94ACB173F2BD6001651DA /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		0DA94ACD173F2BD6001651DA /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		0DA94AD4173F2BE3001651DA /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		0DA94AD8173F2C28001651DA /* RGMRecordingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RGMRecordingViewController.h; sourceTree = "<group>"; };
+		0DA94AD9173F2C28001651DA /* RGMRecordingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RGMRecordingViewController.m; sourceTree = "<group>"; };
+		0DA94ADB173F2C51001651DA /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		0DA94ADD173F3013001651DA /* RGMSampleWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RGMSampleWriter.h; sourceTree = "<group>"; };
+		0DA94ADE173F3013001651DA /* RGMSampleWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RGMSampleWriter.m; sourceTree = "<group>"; };
+		0DA94AE0173F33B4001651DA /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		0DA94AE2173F36D5001651DA /* RGMTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RGMTableViewController.h; sourceTree = "<group>"; };
+		0DA94AE3173F36D5001651DA /* RGMTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RGMTableViewController.m; sourceTree = "<group>"; };
+		0DA94AE5173F3761001651DA /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		0DA94AE7173F3F5A001651DA /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		0DA94AEC173F5D5A001651DA /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		0DA94AEE17403B49001651DA /* RGMPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RGMPlayerViewController.h; sourceTree = "<group>"; };
+		0DA94AEF17403B49001651DA /* RGMPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RGMPlayerViewController.m; sourceTree = "<group>"; };
+		0DAE68D61745BA5A00127F5D /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +80,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D41FBFD17429D4C001DFB53 /* CoreImage.framework in Frameworks */,
+				0D41FBFB17429D44001DFB53 /* OpenGLES.framework in Frameworks */,
+				0D41FBF917429D3F001DFB53 /* GLKit.framework in Frameworks */,
+				0DA94AED173F5D5A001651DA /* CoreAudio.framework in Frameworks */,
+				0DA94AE8173F3F5A001651DA /* CoreVideo.framework in Frameworks */,
+				0DA94AE6173F3761001651DA /* MediaPlayer.framework in Frameworks */,
+				0DA94AE1173F33B4001651DA /* QuartzCore.framework in Frameworks */,
+				0DA94ADC173F2C51001651DA /* CoreMedia.framework in Frameworks */,
+				0DA94AD5173F2BE3001651DA /* AVFoundation.framework in Frameworks */,
 				0DA94AB8173F2BD6001651DA /* UIKit.framework in Frameworks */,
 				0DA94ABA173F2BD6001651DA /* Foundation.framework in Frameworks */,
 				0DA94ABC173F2BD6001651DA /* CoreGraphics.framework in Frameworks */,
@@ -68,9 +118,18 @@
 		0DA94AB6173F2BD6001651DA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				0DA94AB7173F2BD6001651DA /* UIKit.framework */,
-				0DA94AB9173F2BD6001651DA /* Foundation.framework */,
+				0DA94AD4173F2BE3001651DA /* AVFoundation.framework */,
+				0DA94AEC173F5D5A001651DA /* CoreAudio.framework */,
 				0DA94ABB173F2BD6001651DA /* CoreGraphics.framework */,
+				0D41FBFC17429D4C001DFB53 /* CoreImage.framework */,
+				0DA94ADB173F2C51001651DA /* CoreMedia.framework */,
+				0DA94AE7173F3F5A001651DA /* CoreVideo.framework */,
+				0DA94AB9173F2BD6001651DA /* Foundation.framework */,
+				0D41FBF817429D3F001DFB53 /* GLKit.framework */,
+				0DA94AE5173F3761001651DA /* MediaPlayer.framework */,
+				0D41FBFA17429D44001DFB53 /* OpenGLES.framework */,
+				0DA94AE0173F33B4001651DA /* QuartzCore.framework */,
+				0DA94AB7173F2BD6001651DA /* UIKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -80,6 +139,21 @@
 			children = (
 				0DA94AC6173F2BD6001651DA /* RGMAppDelegate.h */,
 				0DA94AC7173F2BD6001651DA /* RGMAppDelegate.m */,
+				0DAE68D61745BA5A00127F5D /* MainStoryboard.storyboard */,
+				0D41FBB81741474C001DFB53 /* RGMCollectionViewCell.h */,
+				0D41FBB91741474C001DFB53 /* RGMCollectionViewCell.m */,
+				0DA94AE2173F36D5001651DA /* RGMTableViewController.h */,
+				0DA94AE3173F36D5001651DA /* RGMTableViewController.m */,
+				0DA94AD8173F2C28001651DA /* RGMRecordingViewController.h */,
+				0DA94AD9173F2C28001651DA /* RGMRecordingViewController.m */,
+				0DA94AEE17403B49001651DA /* RGMPlayerViewController.h */,
+				0DA94AEF17403B49001651DA /* RGMPlayerViewController.m */,
+				0D41FBF517429D2F001DFB53 /* RGMGLPlayerViewController.h */,
+				0D41FBF617429D2F001DFB53 /* RGMGLPlayerViewController.m */,
+				0DA94ADD173F3013001651DA /* RGMSampleWriter.h */,
+				0DA94ADE173F3013001651DA /* RGMSampleWriter.m */,
+				0D86FFA31740959A005CD94C /* RGMScrubberControl.h */,
+				0D86FFA41740959A005CD94C /* RGMScrubberControl.m */,
 				0DA94ABE173F2BD6001651DA /* Supporting Files */,
 			);
 			path = Spline;
@@ -155,6 +229,7 @@
 				0DA94ACA173F2BD6001651DA /* Default.png in Resources */,
 				0DA94ACC173F2BD6001651DA /* Default@2x.png in Resources */,
 				0DA94ACE173F2BD6001651DA /* Default-568h@2x.png in Resources */,
+				0DAE68D71745BA5A00127F5D /* MainStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,6 +242,13 @@
 			files = (
 				0DA94AC4173F2BD6001651DA /* main.m in Sources */,
 				0DA94AC8173F2BD6001651DA /* RGMAppDelegate.m in Sources */,
+				0DA94ADA173F2C28001651DA /* RGMRecordingViewController.m in Sources */,
+				0DA94ADF173F3013001651DA /* RGMSampleWriter.m in Sources */,
+				0DA94AE4173F36D5001651DA /* RGMTableViewController.m in Sources */,
+				0DA94AF017403B49001651DA /* RGMPlayerViewController.m in Sources */,
+				0D86FFA51740959A005CD94C /* RGMScrubberControl.m in Sources */,
+				0D41FBBA1741474C001DFB53 /* RGMCollectionViewCell.m in Sources */,
+				0D41FBF717429D31001DFB53 /* RGMGLPlayerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +365,7 @@
 				0DA94AD3173F2BD6001651DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
